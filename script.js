@@ -21,7 +21,8 @@ function makeGreen() {
 
 function makeYellow2() {
     document.getElementById("yellowLight").classList.add("activeLight");
-    timer = setTimeout(makeRed, 2000)
+    document.getElementById("greenLight").classList.remove("activeLight")
+    timer = setTimeout(makeRed, 3000)
 }
 
 function startTheLight() {
