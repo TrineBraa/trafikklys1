@@ -1,4 +1,4 @@
-timer;
+timer = '';
 
 function makeRed() {
     document.getElementById("redLight").classList.add("activeLight");
@@ -16,7 +16,7 @@ function makeGreen() {
     document.getElementById("greenLight").classList.add("activeLight");
     document.getElementById("yellowLight").classList.remove("activeLight")
     document.getElementById("redLight").classList.remove("activeLight")
-    timer = setTimeout(makeYellow2, 40000)
+    timer = setTimeout(makeYellow2, 4000)
 }
 
 function makeYellow2() {
