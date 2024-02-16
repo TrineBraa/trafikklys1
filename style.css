@@ -1,0 +1,56 @@
+#body {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+#lightContainer {
+    background-color: black;
+    align-self: center;
+    width: 160px;
+    height: 450px;
+    border: solid white 3px;
+}
+
+#buttonContainer {
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+}
+
+.changingButton {
+    margin-right: 20px;
+    height: 40px;
+    width: 70px;
+    border-radius: 30px;
+    border: solid white 4px;
+    background-color: dodgerblue;
+}
+
+.Circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.RedColor {
+    background-color: red;
+    opacity: 20%;
+}
+
+.YellowColor {
+    background-color: yellow;
+    opacity: 20%;
+}
+
+.GreenColor {
+    background-color: green;
+    opacity: 20%;
+}
+
+.activeLight {
+    opacity: 100%;
+}
